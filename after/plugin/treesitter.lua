@@ -8,5 +8,3 @@ require('nvim-treesitter').setup {
   }
 }
 
-vim.env.ARCHFLAGS = "-arch arm64"
-
