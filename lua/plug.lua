@@ -13,6 +13,8 @@ Plug('nvim-telescope/telescope.nvim')
 Plug('projekt0n/github-nvim-theme')
 Plug('nvim-treesitter/nvim-treesitter', { ['run'] = ':TSUpdate' })
 Plug('ThePrimeagen/harpoon', { branch = 'harpoon2', dependencies = 'nvim-lua/plenary.nvim' })
+Plug('mbbill/undotree')
+Plug('tpope/vim-fugitive')
 
 vim.call('plug#end')
 

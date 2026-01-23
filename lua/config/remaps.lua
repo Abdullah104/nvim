@@ -9,6 +9,6 @@ for _, key in ipairs(vertical_movements) do
 end
 
 -- Easier maps for project view
-vim.keymap.set('n', '<leader>dv', vim.cmd.Ex, { desc = 'Directory view' })
-vim.keymap.set('n', '<leader>pv', ':e .<CR>', { desc = 'Project View' })
+vim.keymap.set('n', '<leader>vd', vim.cmd.Ex, { desc = 'view directory' })
+vim.keymap.set('n', '<leader>vp', ':e .<CR>', { desc = 'view project' })
 
