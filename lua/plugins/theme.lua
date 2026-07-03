@@ -6,13 +6,13 @@ return {
   { "rebelot/kanagawa.nvim", name = "kanagawa" }, -- kanagawa-wave
 
   -- Add catpuccin
-  { "catppuccin/nvim", name = "catppuccin" }, -- catppuccin-mocha
+  { "catppuccin/nvim", name = "catppuccin", opts = { transparent_background = true } }, -- catppuccin-mocha
 
   -- Add Tokyo Night
   { "folke/tokyonight.nvim" },
 
   -- Add Rosé Pine
-  { "rose-pine/neovim", name = "rose-pine" },
+  { "rose-pine/neovim", name = "rose-pine", opts = { transparent_background = true } },
 
   -- Add everforest
   { "neanias/everforest-nvim", name = "everforest", opts = { background = "hard" } },
