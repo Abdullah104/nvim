@@ -12,7 +12,7 @@ return {
   { "folke/tokyonight.nvim" },
 
   -- Add Rosé Pine
-  { "rose-pine/neovim", name = "rose-pine", opts = { transparent_background = true } },
+  { "rose-pine/neovim", name = "rose-pine", opts = { styles = { transparency = true } } },
 
   -- Add everforest
   { "neanias/everforest-nvim", name = "everforest", opts = { background = "hard" } },
@@ -24,7 +24,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-mocha",
+      colorscheme = "rose-pine-moon",
     },
   },
 }
